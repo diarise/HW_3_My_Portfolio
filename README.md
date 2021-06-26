@@ -6,7 +6,7 @@
 
 ## Layout
 
-this design was bases an a ***two gride columns, with 50% width each8***.
+this design was based on ***two grid columns, with 50% width each***.
 
 ### Left column
 * ***Hero image*** (background image)
@@ -32,4 +32,4 @@ this design was bases an a ***two gride columns, with 50% width each8***.
 
 ### Redline Footer Section
 
-![Image](redline-Footer.png)
+![Image](redline-footer.png)
