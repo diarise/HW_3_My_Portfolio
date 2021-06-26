@@ -56,7 +56,10 @@ body{
 .firstFooter, .secondFooter{
 	bottom: 0;
     position: absolute;
-    width: calc(100% - 90px);
+    width: 100%;
+}
+.secondFooter {
+	width: calc(100% - 90px);
 }
 .socialMedia, .contactInfo {
 	list-style: none;
