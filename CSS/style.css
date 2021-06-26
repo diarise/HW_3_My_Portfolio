@@ -112,11 +112,14 @@ body{
 .download {
     margin-top: 80px;
 }
-.download a{
+.download button{
 	font-weight: 300;
-	font-size: 18px;
-	color: #457B9D;
-	text-decoration: none;
+    font-size: 18px;
+    font-family: 'Oswald', sans-serif;
+    color: #457B9D;
+    text-decoration: none;
+    background: none;
+    border: none;
 }
 .download img{
 	margin-right: 15px;
