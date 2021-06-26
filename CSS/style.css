@@ -1,3 +1,131 @@
 body{
-	background: #457B9D;
+	margin: 0;
+	padding: 0;	
+	font-family: 'Oswald', sans-serif;
+	font-style: normal;
+	font-weight: 200;
+	font-size: 24px;
+	line-height: 36px;
+	color: #FFFFFF;
+
+	display: grid;
+	justify-content: center;
+	align-content: center;
 }
+.mainWrapper{
+	display: grid;
+	grid-auto-flow: column;
+	grid-template-columns: 1fr 1fr;
+	grid-template-areas: 
+	    "leftColumn rightColumn"
+	;
+	width: 1040px;
+	height: 900px;
+
+}
+#leftColumn {
+	grid-area: leftColumn;
+	background: #457B9D  url(../images/hero.png) no-repeat top;
+	text-align: center;
+	position: relative;
+}
+#rightColumn{
+	grid-area: rightColumn;
+  	background: #1D3557 url(../images/arrow.svg) no-repeat center left -10px;
+  	padding: 45px;
+  	position: relative;
+}
+.heroBranding{
+	font-style: normal;
+	line-height: 107px;
+	font-size: 72px;
+	padding-top: 270px;
+}
+.small{
+	font-weight: 200;
+	font-size: 36px;
+	line-height: 53px;
+}
+.bold{
+	font-weight: 600;
+	color: #1D3557;
+}
+.light{
+	font-weight: 200;
+}
+.firstFooter, .secondFooter{
+	bottom: 0;
+    position: absolute;
+    width: calc(100% - 90px);
+}
+.socialMedia, .contactInfo {
+	list-style: none;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: flex-end;
+	padding: 0;
+}
+.contactInfo{
+	justify-content: space-between;
+}
+.socialMedia li, .contactInfo li{
+	display: inline;
+}
+.contactInfo li{
+	font-size: 14px;
+}
+.bio{
+	text-align: justify;
+}
+.navigationWrapper{
+	width: 100%;
+}
+.navigation {
+	list-style: none;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: flex-end;
+	padding: 0;
+	margin: 0;
+    font-weight: 400;
+    text-transform: capitalize;
+
+}
+.navigation a:hover{
+	color: #fff;
+}
+.navigation a{
+	color: #457B9D;
+	text-decoration: none;
+}
+.navigation li{
+	display: inline;
+	border-right: 1px solid #457B9D;
+    padding: 0 25px 5px;
+}
+.navigation li:last-child{
+	border: none;
+}
+.download {
+    margin-top: 80px;
+}
+.download a{
+	font-weight: 300;
+	font-size: 18px;
+	color: #457B9D;
+	text-decoration: none;
+}
+.download img{
+	margin-right: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
