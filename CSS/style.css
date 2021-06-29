@@ -126,6 +126,198 @@ body{
 	margin-right: 15px;
 }
 
+/**** CSS FOR THE MY WORK PAGE ****/
+
+
+.row{
+	display: grid;
+	grid-auto-flow: column;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	width: 1040px;
+	height: 365px;	
+}
+.row.first{
+	grid-template-areas: 
+	    "firstBlock secondBlock thirdBlock fourthBlock"
+	;
+}
+.row.last{
+	grid-template-areas: 
+	    "fiveBlock sixBlock sevenBlock eightBlock"
+	;
+}
+.row > div {
+	display: flex;
+  	align-items: center;
+  	justify-content: center;
+}
+#firstBlock {
+	grid-area: firstBlock;
+	background: #E63946;
+	color: #F1FAEE;
+}
+#secondBlock {
+	grid-area: secondBlock;
+	background: #F1FAEE url(../images/red-arrow.svg) no-repeat center left -25px;
+	color: #E63946;
+}
+#thirdBlock {
+	grid-area: thirdBlock;
+	background: #A8DADC;
+	color: #457B9D;
+}
+#fourthBlock {
+	grid-area: fourthBlock;
+	background: #457B9D url(../images/light-blue-arrow.svg) no-repeat center left -25px;
+	color: #A8DADC;
+}
+#eightBlock {
+	grid-area: eightBlock;
+	background: #E63946;
+	color: #F1FAEE;
+	
+}
+#sevenBlock {
+	grid-area: sevenBlock;
+	background: #F1FAEE url(../images/red-right-arrow.svg) no-repeat center right -25px;
+	color: #E63946;
+	position: relative;
+}
+#sixBlock {
+	grid-area: sixBlock;
+	background: #A8DADC;
+	color: #457B9D;
+}
+#fiveBlock {
+	grid-area: fiveBlock;
+	background: #457B9D url(../images/light-blue-rigt-arrow.svg) no-repeat center right -25px;
+	color: #A8DADC;
+}
+.middelRow{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background: #1D3557;
+    padding: 15px 0;
+}
+.LogoHeroBranding {
+	font-style: normal;
+	line-height: 107px;
+	font-size: 72px;
+	margin: 0;
+}
+.LogoHeroBranding .bold {
+	color: #457B9D;
+	font-size: 64px;
+}
+.LogoHeroBranding .light {
+	color: #E63946;
+	font-size: 48px;
+}
+.title{
+	font-weight: bold;
+	font-size: 36px;
+}
+.row ul{
+	padding: 0;
+	margin: 0;
+}
+.row li{
+	font-size: 24px;
+	line-height: 36px;
+	text-transform: uppercase;
+}
+.contactMeFooter {
+	bottom: 0;
+    position: absolute;
+    width: 100%;
+}
+#sevenBlock ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    padding: 0;
+}
+h3 {
+	font-weight: 600;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin: 0;
+}
+input.inputField {
+	background: #F1FAEE;
+	border: 1px solid #E63946;
+	box-sizing: border-box;
+	width: 98px;
+	height: 25px;
+	font-size: 14px;
+	line-height: 21px;
+	color: #E63946;
+	margin-bottom: 15px;
+}
+.inputField::placeholder,
+textarea::placeholder {
+  	color: rgba(230, 57, 70, 0.7);
+  	font-size: 14px;
+  	font-family: Oswald;
+}
+
+input.inputField:first-child{
+	margin-right: 5px;
+}
+textarea{
+	width: 206px;
+	height: 97px;
+	background: #F1FAEE;
+	border: 1px solid #E63946;
+	box-sizing: border-box;
+	color: #E63946;
+}
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+.submitBtn {
+	width: 206px;
+    background: #E63946;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    border: none;
+    padding: 3px 0;
+}
+#sevenBlock p{
+	margin: 0;
+	font-size: 18px;
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

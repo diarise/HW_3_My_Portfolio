@@ -2,7 +2,7 @@
 
 ## Preview of my Portfolio
 
-![Image](My-portfolio.png)
+![Image](images/screeshoot-My-portfolio.png)
 
 ## Layout
 
@@ -24,12 +24,12 @@ this design was based on ***two grid columns, with 50% width each***.
 
 ### Redline Navigation Section
 
-![Image](redline-header.png)
+![Image](images/logo-redline-header.png)
 
 ### Redline Hero Section
 
-![Image](redline-hero.png)
+![Image](images/logo-redline-hero.png)
 
 ### Redline Footer Section
 
-![Image](redline-footer.png)
+![Image](images/logo-redline-footer.png)
