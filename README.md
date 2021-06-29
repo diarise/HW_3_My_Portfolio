@@ -2,7 +2,7 @@
 
 ## Preview of my Portfolio
 
-![Image](images/screeshoot-My-portfolio.png)
+![Image](images/screenshoot-My-portfolio.png)
 
 ## Layout
 
