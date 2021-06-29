@@ -33,3 +33,12 @@ this design was based on ***two grid columns, with 50% width each***.
 ### Redline Footer Section
 
 ![Image](images/logo-redline-footer.png)
+
+
+## Preview of my Work
+
+## Layout of the second page
+
+this design was based on ***four grid columns, with 25% width each***.
+
+![Image](images/screenshoot-work.png)
